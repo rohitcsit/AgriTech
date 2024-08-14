@@ -1,0 +1,27 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block blog %}active{% endblock blog %}
+
+{% block content %}
+
+
+<div class="container" style="height: 100vh;">
+  <h3 class="my-3 text-center"> <u>Your Uploaded Blog</u> </h3>
+  <div class="row justify-content-center d-flex">
+    {% for post in posts %}
+    <div class="col-sm-10 border border-1 border-dark mb-2">
+
+
+      <h1 class="py-4 font-weight-bold">{{post.title}}</h1>
+      <p>{{post.desc}}</p>
+
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+{% endblock content %}

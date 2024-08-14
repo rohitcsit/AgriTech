@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 247, 255) !important;
+  color: rgb(0, 51, 96);
+}
+
+.nav-color {
+  background-color: rgb(2, 0, 93);
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.main-page {
+  margin-top: 10px;
+}
+
+.welcome {
+  font-family: cursive;
+  font-weight: 700;
+  color: rgb(0, 6, 185);
+}
+
+.custom-card {
+  background: white;
+  color: rgb(0, 51, 96);
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+
+}
+
+.custom-card:focus,
+.custom-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+
+.button {
+  display: inline-block;
+  background: #4285f4;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+  transform: translate(0px, -10px) scale(1.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.form_bg {
+  background-color: rgb(218, 238, 255);
+}
+
+.p-color {
+  color: #e5efff;
+  background-color: #001f52;
+}

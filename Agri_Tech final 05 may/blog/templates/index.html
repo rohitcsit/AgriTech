@@ -1,0 +1,229 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block home %}active{% endblock home %}
+
+<!-- {% block bgcover %}
+<section class="min-vh-100 img-fluid bg-cover" id="section3">
+    <div class=" overlay">
+    </div>
+
+    <div class="pt-5">
+        <h1 class=" text-center text-white pt-4" data-aos="zoom-in"><b>All About Blockchain Technology</b> </h1>
+    </div>
+</section>
+{% endblock bgcover %} -->
+
+
+{% block content %}
+
+<section style="background-image: url('/static/a.jpg');">
+
+</section>
+
+<section class="home p-3">
+
+    <marquee behavior="" direction="" class="bg-light">
+        <h1 class="welcome text-center pb-4 h1">Bridging the gap between agriculture and technology</h1>
+    </marquee>
+    <div class="row"></div>
+    <div class="row pt-3">
+        <div class="col-sm mt-2 order-sm-0">
+
+            <p style="font-size: large;"><b>Welcome to AgriTech,</b> where agriculture meets technology for a sustainable future. Our goal is to help farmers improve crop yields and streamline farming practices through cutting-edge technology. From precision agriculture tools to innovative irrigation systems, we offer a wide range of solutions for farmers of all experience levels. Join us in the movement towards a more efficient and sustainable future in farming. Explore our website today and
+                discover the latest trends
+                in
+                agriculture
+                technology. Thank you for choosing AgriTech – let's revolutionize the industry together.</p>
+
+            <!-- <ul>
+                <li>Blogs Related to Farming</li>
+                <li>Scheme which is Provided by Government</li>
+            </ul>
+            <h5>In this web-app we provide blogs related to Agriculture (Farming) <br> <br> And also we provide all Scheme which is provided by Indian Government
+            </h5> -->
+            <div class="justify-content-center d-flex">
+                <h4 class="button mt-2 ">Learn More</h4>
+            </div>
+        </div>
+        <div class="col-sm mt-3 order-sm-1">
+            <img class="img-fluid rounded-3" src="{% static 'img/3.gif' %}" alt="">
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section class=" mt-4    ">
+    <div class="row">
+        <div class="col">
+            <h1 class="welcome text-center">Farming</h1>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#service">
+                <img src="{% static 'img/1.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">Mountain Area</h3>
+                    <hr>
+                    <p class="card-text">Some examples of mountain ranges are the Himalayas, Karakoram mountain ranges, Hindu Kush mountains, <b>Read More</b> </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#organic">
+                <img src="{% static 'img/organic.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">Organic Farming</h3>
+                    <hr>
+                    <p class="card-text pb-2">Organic farming can be defined as an agricultural process that uses biological fertilisers and pest control acquired from animal or plant waste. <b>Reed more</b> </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#flower">
+                <img src="{% static 'img/flow.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">Floriculture</h3>
+                    <hr>
+                    <p class="card-text pb-2">In India Floriculture is an ancient farming practice having a massive ability to generate self-employment for small farmers. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+<section class=" mt-4    ">
+    <div class="row">
+        <div class="col">
+            <h1 class="welcome text-center">Usefull Technology in Agriculture</h1>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#service">
+                <img src="{% static 'img/2.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">Drone </h3>
+                    <hr>
+                    <p class="card-text">Agricultural drones fitted along with multispectral sensors and RGB sensors also detect field areas inflicted... According to this data, the <a href="">Read more</a> </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#service">
+                <img src="{% static 'img/4.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">AI in Farming</h3>
+                    <hr>
+                    <p class="card-text">Automation in agriculture is the buzzword across the world because in recent times Artificial Intelligence (AI) has been seeing a lot of direct impact in farming.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card custom-card" data-bs-toggle="modal" data-bs-target="#service">
+                <img src="{% static 'img/3.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a type="submit" class="card-title" id="title_get">{{obj.title}}</a>
+                    <h3 class="text-center">The Combine Harvester</h3>
+                    <hr>
+                    <p class="card-text">a staple of farmers’ fields since the late 1800s, does much more these days than just vacuum up corn, soybeans and other crops. <a href="">Read More</a></p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+<hr>
+
+<section class="contact mb-3" id="">
+    <div class="row mb-3">
+        <div class="col text-center">
+            <h1 class="welcome ">Contact Us</h1>
+            <h5>Contact us to know how you can sell you product here </h5>
+        </div>
+    </div>
+    <div class="row justify-content-center d-flex">
+        <div class="col-8 bg-white border border-2 rounded p-3">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" name="name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Mobile</label>
+                    <input type="number" class="form-control" name="mobile">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Address</label>
+                    <input type="number" class="form-control" name="mobile">
+                </div>
+
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn btn-primary button mt-2">Contact</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Organic Farming Modal -->
+<div class="modal fade" id="organic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Organic Farming</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-dark">
+                {% include "blog/organic.html" %}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Flower Farming Modal -->
+<div class="modal fade" id="flower" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Organic Farming</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-dark">
+                {% include "blog/flower.html" %}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
